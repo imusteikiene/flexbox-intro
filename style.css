@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background: crimson;
+    padding: 20px;
+    font-family: verdana;
+ }
+
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.container{
+    display: flex;
+    height: 500px;
+    border: 3px solid black;
+
+}
+.container .box {
+    width: 150px;
+    height: 150px;
+    background: black;
+    color: crimson;
+    font-size: 3em;
+
+
+} 
